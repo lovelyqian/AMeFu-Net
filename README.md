@@ -21,9 +21,9 @@ Following [the monodepth2 repo](https://github.com/nianticlabs/monodepth2) to fi
 ## 2.2 preparing the datasets
 Totally three datasets are used in our experiments, including Kinetics, UCF101, and HMDB51. 
 
-We suppose that you have downloaded the datasets by yourself.  Sorry for we could not provide the original video datasets. 
+We suppose that you have downloaded the datasets by yourself.  Sorry for that we could not provide the original video datasets. 
 
-There are mainly three steps to processing our dataset.  We also provide the scripts we use for your convenience.
+There are mainly three steps to processing our dataset.  We also provide the scripts for your convenience.
 
 1. extracting the video frames.
 `sources/video_jpg.py`
