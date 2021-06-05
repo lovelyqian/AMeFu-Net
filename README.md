@@ -62,6 +62,23 @@ miniKinetics_frames
 
 # 3 network testing
 
+We provide the pretrained checkpoints for submodels and full models.
+
+**full model:**
+- model_full_ucf.pkl: https://drive.google.com/file/d/1NaIOcGJCHp9Mf5mWjnMwQfZVvZfz1TNq/view?usp=sharing
+- model_full_hmdb.pkl: https://drive.google.com/file/d/1qivNcrgnLiaJNyEzv_Ywp-M8oDYBvHlt/view?usp=sharing
+- model_full_kinetics.pkl: https://drive.google.com/file/d/1PH96YY64v82-4vWNPwZFYUwMNi9BvJRA/view?usp=sharing
+
+**submodels:**
+- ucf_depth_submodel.pkl: https://drive.google.com/file/d/19tyUWm2jQvrh8nnvfVa6S8hyNa0X_g-Y/view?usp=sharing
+- ucf_rgb_submodel.pkl: https://drive.google.com/file/d/1zxGJ6vUGqyDkucsWtDjXS1w93VI9h60o/view?usp=sharing
+- hmdb_depth_submodel.pkl：  https://drive.google.com/file/d/1neXreD2TdGMdJjbgxSzjlQnvgikbfdKy/view?usp=sharing
+- hmdb_rgb_submodel.pkl:  https://drive.google.com/file/d/1-yVLNZmR9BXNxD7CgQEGQEI5zEO011mh/view?usp=sharing
+- kinetics_depth_submodel.pkl: https://drive.google.com/file/d/1-gcMQR6qDIwDSWUem0LTj3a5VUgbeljE/view?usp=sharing
+- kinetics_rgb_submodel.pkl: https://drive.google.com/file/d/12yTuCx-lw63YO8acQ1yLNqD5a5NMmyLt/view?usp=sharing
+
+
+
 usage for Kinetics dataset:
 ```
 CUDA_VISIBLE_DEVICES=0 python network_test.py --dataset kinetics --ckp ./result/model_full_kinetics.pkl --k_shot 1
@@ -77,7 +94,6 @@ usage for HMDB51 dataset:
 CUDA_VISIBLE_DEVICES=0 python network_test.py --dataset hmdb --ckp ./result/model_full_hmdb.pkl --k_shot 1
 ```
 
-The models will be released soon.
 
 Due to the randomness of the few-shot learning,  the result may vary. 
 
@@ -90,7 +106,7 @@ If ''out of the memory" occurred, then two cards are required.
 CUDA_VISIBLE_DEVICES=0,1 python network_train_meta_learning.py --dataset kinetics --exp_name test --pre_model_rgb ./result/kinetics_rgb_submodel.pkl --pre_model_depth ./result/kinetics_depth_submodel.pkl
 ```
 
-The submodels will also be provided.
+You can use the submodel provided by us.
 
 If you want to train the submodels by yourself,  we refer you to our previous work [emboded few-shot learning](https://github.com/lovelyqian/Embodied-One-Shot-Video-Recognition).
 
