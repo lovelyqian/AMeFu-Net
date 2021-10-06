@@ -5,6 +5,8 @@ Repository for the paper :
 
 [[paper](https://arxiv.org/abs/2010.09982)]
 
+[[News! presentation video uploaded in 20211006](https://www.bilibili.com/video/BV1i44y1t78U?spm_id_from=333.999.0.0)]
+
 ![](https://upload-images.jianshu.io/upload_images/9933353-a0414d86bce9bee5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 If you have any questions, feel free to contact me. My email is yqfu18@fudan.edu.cn.
