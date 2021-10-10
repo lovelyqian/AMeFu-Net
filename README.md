@@ -5,7 +5,9 @@ Repository for the paper :
 
 [[paper](https://arxiv.org/abs/2010.09982)]
 
-[[News! presentation video uploaded in 20211006](https://www.bilibili.com/video/BV1i44y1t78U?spm_id_from=333.999.0.0)]
+[[News! presentation video uploaded in 2021/10/06 in Bilibili.](https://www.bilibili.com/video/BV1i44y1t78U?spm_id_from=333.999.0.0)]
+
+[[News! presentation video uploaded in 2021/10/10 in Youtube.](https://www.youtube.com/watch?v=KqNYuZD5xdw)]
 
 ![](https://upload-images.jianshu.io/upload_images/9933353-a0414d86bce9bee5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
